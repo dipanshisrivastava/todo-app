@@ -4,6 +4,8 @@ import Hello from './components/Hello';
 import MyClass from './components/MyClass';
 import Name from './components/Name';
 import Example from './components/Example';
+import Form from './components/Form';
+
 function App() {
   
   function clicked() {
@@ -13,7 +15,8 @@ function App() {
   return (
     <div className="container">
       <Name/>
-      <Example names ={['Python, Java, C, Cpp']}/>
+      <Example names ={['Python', 'Java', 'C', 'Cpp']}/>
+      <Form/>
     </div>
   );
 }

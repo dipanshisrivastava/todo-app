@@ -2,9 +2,10 @@ import React from 'react'
 
 function myElement(names) {
     return names.map(name => 
-    
+
+      // {'${name}'}
         <div key={name}>
-            {'${name}'}
+            {name} 
         </div>
 
     )
@@ -18,4 +19,4 @@ function Example(props) {
   )
 }
 
-export default Example
+export default Example;
